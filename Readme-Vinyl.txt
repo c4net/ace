@@ -20,7 +20,7 @@ Once the changes have been done, to publish:
 
 1. back at the root folder
 2. run `npm install`
-3. run `node Makefile.dryice.js -nc` (-nc for no-conflict mode)
+3. run `node Makefile.dryice.js -nc -m` (-nc for no-conflict mode, -m for minified)
 
 The generated files will be under build/src-noconfict, of interest
 * mode-mvsql.js (the actual mode)
